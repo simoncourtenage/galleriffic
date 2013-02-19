@@ -941,7 +941,6 @@
             // make sure there are items in the gallery first
             // this might not be the case if we load via ajax
             var thumbcnt = this.find('ul.thumbs > li').length;
-            alert('thumb cnt is ' + thumbcnt);
             if (thumbcnt > 0) {
 			    this.gotoIndex(0, false, true);
             }
